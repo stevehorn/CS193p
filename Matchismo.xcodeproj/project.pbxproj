@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A219F80D1760FAB900002532 /* pie-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A219F80C1760FAB900002532 /* pie-icon.png */; };
 		A23AD08D175C19BB002BDA2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23AD08C175C19BB002BDA2C /* UIKit.framework */; };
 		A23AD08F175C19BB002BDA2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23AD08E175C19BB002BDA2C /* Foundation.framework */; };
 		A23AD091175C19BB002BDA2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23AD090175C19BB002BDA2C /* CoreGraphics.framework */; };
@@ -23,6 +24,11 @@
 		A23AD0B3175C19BB002BDA2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23AD08E175C19BB002BDA2C /* Foundation.framework */; };
 		A23AD0BB175C19BB002BDA2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A23AD0B9175C19BB002BDA2C /* InfoPlist.strings */; };
 		A23AD0BE175C19BB002BDA2C /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A23AD0BD175C19BB002BDA2C /* MatchismoTests.m */; };
+		A23AD0C9175C2866002BDA2C /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = A23AD0C8175C2866002BDA2C /* Card.m */; };
+		A23AD0CC175C28A1002BDA2C /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = A23AD0CB175C28A1002BDA2C /* Deck.m */; };
+		A23AD0CF175C28B3002BDA2C /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = A23AD0CE175C28B3002BDA2C /* PlayingCard.m */; };
+		A23AD0D2175C28C2002BDA2C /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = A23AD0D1175C28C2002BDA2C /* PlayingCardDeck.m */; };
+		A2AD4B9F175EDD47005AE16A /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AD4B9E175EDD47005AE16A /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A219F80C1760FAB900002532 /* pie-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pie-icon.png"; path = "../../../../../Downloads/pie-icon.png"; sourceTree = "<group>"; };
 		A23AD089175C19BB002BDA2C /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23AD08C175C19BB002BDA2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A23AD08E175C19BB002BDA2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +65,16 @@
 		A23AD0BA175C19BB002BDA2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A23AD0BC175C19BB002BDA2C /* MatchismoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchismoTests.h; sourceTree = "<group>"; };
 		A23AD0BD175C19BB002BDA2C /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
+		A23AD0C7175C2866002BDA2C /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
+		A23AD0C8175C2866002BDA2C /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		A23AD0CA175C28A1002BDA2C /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		A23AD0CB175C28A1002BDA2C /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
+		A23AD0CD175C28B3002BDA2C /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Model/PlayingCard.h; sourceTree = "<group>"; };
+		A23AD0CE175C28B3002BDA2C /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
+		A23AD0D0175C28C2002BDA2C /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Model/PlayingCardDeck.h; sourceTree = "<group>"; };
+		A23AD0D1175C28C2002BDA2C /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
+		A2AD4B9D175EDD47005AE16A /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		A2AD4B9E175EDD47005AE16A /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +140,7 @@
 				A23AD0A7175C19BB002BDA2C /* CardGameViewController.h */,
 				A23AD0A8175C19BB002BDA2C /* CardGameViewController.m */,
 				A23AD093175C19BB002BDA2C /* Supporting Files */,
+				A23AD0D3175C29C7002BDA2C /* Model */,
 			);
 			path = Matchismo;
 			sourceTree = "<group>";
@@ -130,6 +148,7 @@
 		A23AD093175C19BB002BDA2C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A219F80C1760FAB900002532 /* pie-icon.png */,
 				A23AD094175C19BB002BDA2C /* Matchismo-Info.plist */,
 				A23AD095175C19BB002BDA2C /* InfoPlist.strings */,
 				A23AD098175C19BB002BDA2C /* main.m */,
@@ -158,6 +177,23 @@
 				A23AD0B9175C19BB002BDA2C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A23AD0D3175C29C7002BDA2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2AD4B9D175EDD47005AE16A /* CardMatchingGame.h */,
+				A2AD4B9E175EDD47005AE16A /* CardMatchingGame.m */,
+				A23AD0C7175C2866002BDA2C /* Card.h */,
+				A23AD0C8175C2866002BDA2C /* Card.m */,
+				A23AD0CA175C28A1002BDA2C /* Deck.h */,
+				A23AD0CB175C28A1002BDA2C /* Deck.m */,
+				A23AD0CD175C28B3002BDA2C /* PlayingCard.h */,
+				A23AD0CE175C28B3002BDA2C /* PlayingCard.m */,
+				A23AD0D0175C28C2002BDA2C /* PlayingCardDeck.h */,
+				A23AD0D1175C28C2002BDA2C /* PlayingCardDeck.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +273,7 @@
 				A23AD0A1175C19BB002BDA2C /* Default@2x.png in Resources */,
 				A23AD0A3175C19BB002BDA2C /* Default-568h@2x.png in Resources */,
 				A23AD0A6175C19BB002BDA2C /* MainStoryboard.storyboard in Resources */,
+				A219F80D1760FAB900002532 /* pie-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +311,11 @@
 				A23AD099175C19BB002BDA2C /* main.m in Sources */,
 				A23AD09D175C19BB002BDA2C /* CardGameAppDelegate.m in Sources */,
 				A23AD0A9175C19BB002BDA2C /* CardGameViewController.m in Sources */,
+				A23AD0C9175C2866002BDA2C /* Card.m in Sources */,
+				A23AD0CC175C28A1002BDA2C /* Deck.m in Sources */,
+				A23AD0CF175C28B3002BDA2C /* PlayingCard.m in Sources */,
+				A23AD0D2175C28C2002BDA2C /* PlayingCardDeck.m in Sources */,
+				A2AD4B9F175EDD47005AE16A /* CardMatchingGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +496,7 @@
 				A23AD0C3175C19BB002BDA2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A23AD0C4175C19BB002BDA2C /* Build configuration list for PBXNativeTarget "MatchismoTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +505,7 @@
 				A23AD0C6175C19BB002BDA2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
