@@ -1,4 +1,4 @@
 CS193p
 ======
 
-Stanford iOS Course
+Stanford iOS Course (Winter 2013)
